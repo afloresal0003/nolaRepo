@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-well-done-end',
@@ -7,8 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WellDoneEndPage implements OnInit {
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute, private router: Router) { }
+  return2C(){
+    this.router.navigate(['categories-page']);
 
+  }
+  returnHome(){
+    this.router.navigate(['']);
+
+  }
   ngOnInit() {
   }
 

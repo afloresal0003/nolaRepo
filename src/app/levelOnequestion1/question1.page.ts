@@ -16,17 +16,25 @@ export class Question1Page implements OnInit {
       let elem = document.getElementById('correct');
       let otherE = document.getElementById('Qcontainer1')
       let otherEE = document.getElementById('Qcontainer2')
+      let otherEEE = document.getElementById('iconTroph')
+      let otherEEEE = document.getElementById('centerThis')
       elem.style.display = 'block';
       otherE.style.display = 'none';
       otherEE.style.display = 'none';
+      otherEEE.style.display = 'none';
+      otherEEEE.style.display = 'none';
     }
     else{
       let elem = document.getElementById('wrong');
       elem.style.display = 'block';
       let otherE = document.getElementById('Qcontainer1')
       let otherEE = document.getElementById('Qcontainer2')
+      let otherEEE = document.getElementById('iconTroph')
+      let otherEEEE = document.getElementById('centerThis')
       otherE.style.display = 'none';
       otherEE.style.display = 'none';
+      otherEEE.style.display = 'none';
+      otherEEEE.style.display = 'none';
     }
   }
   hideColor(option){
@@ -34,19 +42,27 @@ export class Question1Page implements OnInit {
       let elem = document.getElementById('correct');
       let otherE = document.getElementById('Qcontainer1')
       let otherEE = document.getElementById('Qcontainer2')
+      let otherEEE = document.getElementById('iconTroph')
+      let otherEEEE = document.getElementById('centerThis')
       elem.style.display = 'none';
       otherE.style.display = 'block';
       otherEE.style.display = 'block';
+      otherEEE.style.display = 'block';
+      otherEEEE.style.display = 'block';
       this.router.navigate(['levelOnequestion2']);
-      //location.reload();
-      //return false;
+      // location.reload();
+      // return false;
     }
     else{
       let elem = document.getElementById('wrong');
       let otherE = document.getElementById('Qcontainer1')
       let otherEE = document.getElementById('Qcontainer2')
+      let otherEEE = document.getElementById('iconTroph')
+      let otherEEEE = document.getElementById('centerThis')
       otherE.style.display = 'block';
       otherEE.style.display = 'block';
+      otherEEE.style.display = 'block';
+      otherEEEE.style.display = 'block';
       elem.style.display = 'none';
     }
   }
