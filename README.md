@@ -6,8 +6,8 @@
  the Day feature, as well as the game feature. Updates are coming!
 </h3>
 <h3> Developed by the TXT SCLA NOLA team:
-     - Anthony Flores-Alvarez (Developer)
-     - Cesar Melendez (UI/UXX Designer)
-     - Sharief Morrow (Scrum Leader)
-     - Brandon Godinez (Product Manager)
+ <p> - Anthony Flores-Alvarez (Developer) </p>
+ <p> - Cesar Melendez (UI/UXX Designer) </p>
+ <p> - Sharief Morrow (Scrum Leader)</p>
+ <p> - Brandon Godinez (Product Manager)</p>
 </h3>
