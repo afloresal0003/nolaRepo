@@ -7,7 +7,7 @@
 </h3>
 <h3> Developed by the TXT SCLA NOLA team:
  <p> - Anthony Flores-Alvarez (Developer) </p>
- <p> - Cesar Melendez (UI/UXX Designer) </p>
+ <p> - Cesar Melendez (UI/UX Designer) </p>
  <p> - Sharief Morrow (Scrum Leader)</p>
  <p> - Brandon Godinez (Product Manager)</p>
 </h3>
