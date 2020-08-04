@@ -17,11 +17,13 @@ export class Question3Page implements OnInit {
       let otherEE = document.getElementById('Qcontainer2')
       let otherEEE = document.getElementById('iconTroph')
       let otherEEEE = document.getElementById('centerThis')
+      let otherEEEEE = document.getElementById('numberTroph')
       elem.style.display = 'block';
       otherE.style.display = 'none';
       otherEE.style.display = 'none';
       otherEEE.style.display = 'none';
       otherEEEE.style.display = 'none';
+      otherEEEEE.style.display = 'none';
     }
     else{
       let elem = document.getElementById('wrong');
@@ -30,10 +32,12 @@ export class Question3Page implements OnInit {
       let otherEE = document.getElementById('Qcontainer2')
       let otherEEE = document.getElementById('iconTroph')
       let otherEEEE = document.getElementById('centerThis')
+      let otherEEEEE = document.getElementById('numberTroph')
       otherE.style.display = 'none';
       otherEE.style.display = 'none';
       otherEEE.style.display = 'none';
       otherEEEE.style.display = 'none';
+      otherEEEEE.style.display = 'none';
     }
   }
   hideColor(option){
@@ -43,11 +47,13 @@ export class Question3Page implements OnInit {
       let otherEE = document.getElementById('Qcontainer2')
       let otherEEE = document.getElementById('iconTroph')
       let otherEEEE = document.getElementById('centerThis')
+      let otherEEEEE = document.getElementById('numberTroph')
       elem.style.display = 'none';
       otherE.style.display = 'block';
       otherEE.style.display = 'block';
       otherEEE.style.display = 'block';
       otherEEEE.style.display = 'block';
+      otherEEEEE.style.display = 'block';
       this.router.navigate(['levelOnequestion4']);
     }
     else{
@@ -56,10 +62,12 @@ export class Question3Page implements OnInit {
       let otherEE = document.getElementById('Qcontainer2')
       let otherEEE = document.getElementById('iconTroph')
       let otherEEEE = document.getElementById('centerThis')
+      let otherEEEEE = document.getElementById('numberTroph')
       otherE.style.display = 'block';
       otherEE.style.display = 'block';
       otherEEE.style.display = 'block';
       otherEEEE.style.display = 'block';
+      otherEEEEE.style.display = 'block';
       elem.style.display = 'none';
     }
   }

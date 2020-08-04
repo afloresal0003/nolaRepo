@@ -14,10 +14,10 @@ export class CategoriesPagePage implements OnInit {
     this.router.navigate(['/levelOnequestion1']);
   }
   navigateL2Q1(){
-    this.router.navigate(['/levelTwoquestion1']);
+    this.router.navigate(['/level-two-question1']);
   }
   navigateL3Q1(){
-    this.router.navigate(['/levelThreequestion1']);
+    this.router.navigate(['/level-threequestion1']);
   }
   navigateHome(){
     this.router.navigate(['/folder/:id']);

@@ -7,10 +7,14 @@
 <ion-content>
     <div id="correct">
         <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
-        <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+        <div id="continue-button">
+            <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+        </div>
     </div>
     <div id="wrong">
         <h1 style="font-size:100px; ">TRY AGAIN!</h1>
+        <h4>Hint: "Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government
+            for a redress of grievances."</h4>
         <ion-button (click)="hideColor('Go Back')" routerLink="question3" color="primary" size="large" shape="round">Return To Question</ion-button>
     </div>
     <div id="centerThis">
@@ -20,6 +24,11 @@
     <div id="iconTroph">
         <ion-icon size="large" name="trophy-sharp"></ion-icon>
     </div>
+
+    <div id="numberTroph">
+        <h1>0</h1>
+    </div>
+
     <div id="Qcontainer1">
         <ion-button (click)="showColor('green')" routerLink="question3" color="primary" size="medium" shape="round">Right to Privacy</ion-button>
         <ion-button (click)="showColor('red')" routerLink="question3" color="danger" size="medium" shape="round">Right to Freedom of Religion</ion-button>

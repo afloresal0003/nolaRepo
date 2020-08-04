@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="center">Student Rights #04</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div id="correct">
+        <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
+        <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+    </div>
+    <div id="wrong">
+        <h1 style="font-size:100px; ">TRY AGAIN!</h1>
+        <h2>Hint #1 : The first amendment guarantees you the right to freedom of speech which cannot be prohibited.</h2>
+        <ion-button (click)="hideColor('Go Back')" routerLink="question3" color="primary" size="large" shape="round">Return To Question</ion-button>
+    </div>
+    <div id="centerThis">
+        <h1>What can your school suspend you for doing?</h1>
+        <img src="https://image.pbs.org/video-assets/jwSiQUf-asset-mezzanine-16x9-yMMmlMd.png" alt="Image of Mariposa" class="center">
+    </div>
+    <div id="iconTroph">
+        <ion-icon size="large" name="trophy-sharp"></ion-icon>
+    </div>
+    <div id="numberTroph">
+        <h1>8</h1>
+    </div>
+    <div id="Qcontainer1">
+        <ion-button (click)="showColor('red')" routerLink="question3" color="primary" size="large" shape="round">Expressing your political views</ion-button>
+        <ion-button (click)="showColor('red')" routerLink="question3" color="secondary" size="large" shape="round">Participating in a walk-out or school protest</ion-button>
+
+    </div>
+    <div id="Qcontainer2">
+        <ion-button (click)="showColor('red')" routerLink="question3" color="tertiary" size="large" shape="round">Organaizing political events at your school (protests, walkouts, etc.)</ion-button>
+        <ion-button (click)="showColor('green')" routerLink="question3" color="success" size="large" shape="round">Disruptive behavior during political event or protest</ion-button>
+    </div>
+</ion-content>

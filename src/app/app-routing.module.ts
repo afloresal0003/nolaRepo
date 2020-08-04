@@ -62,6 +62,46 @@ const routes: Routes = [
   {
     path: 'faq',
     loadChildren: () => import('./faq/faq.module').then( m => m.FAQPageModule)
+  },
+  {
+    path: 'level-two-question1',
+    loadChildren: () => import('./level-two-question1/level-two-question1.module').then( m => m.LevelTwoQuestion1PageModule)
+  },
+  {
+    path: 'leve-two-question2',
+    loadChildren: () => import('./leve-two-question2/leve-two-question2.module').then( m => m.LeveTwoQuestion2PageModule)
+  },
+  {
+    path: 'leve-two-question3',
+    loadChildren: () => import('./leve-two-question3/leve-two-question3.module').then( m => m.LeveTwoQuestion3PageModule)
+  },
+  {
+    path: 'leve-two-question4',
+    loadChildren: () => import('./leve-two-question4/leve-two-question4.module').then( m => m.LeveTwoQuestion4PageModule)
+  },
+  {
+    path: 'leve-two-question5',
+    loadChildren: () => import('./leve-two-question5/leve-two-question5.module').then( m => m.LeveTwoQuestion5PageModule)
+  },
+  {
+    path: 'level-threequestion1',
+    loadChildren: () => import('./level-threequestion1/level-threequestion1.module').then( m => m.LevelThreequestion1PageModule)
+  },
+  {
+    path: 'level-threequestion2',
+    loadChildren: () => import('./level-threequestion2/level-threequestion2.module').then( m => m.LevelThreequestion2PageModule)
+  },
+  {
+    path: 'level-threequestion3',
+    loadChildren: () => import('./level-threequestion3/level-threequestion3.module').then( m => m.LevelThreequestion3PageModule)
+  },
+  {
+    path: 'level-threequestion4',
+    loadChildren: () => import('./level-threequestion4/level-threequestion4.module').then( m => m.LevelThreequestion4PageModule)
+  },
+  {
+    path: 'level-threequestion5',
+    loadChildren: () => import('./level-threequestion5/level-threequestion5.module').then( m => m.LevelThreequestion5PageModule)
   }
 ];
 

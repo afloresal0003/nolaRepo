@@ -1,0 +1,77 @@
+#Qcontainer1 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 67%;
+    color: red;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#Qcontainer2 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 89%;
+    color: red;
+    transform: translateY(-50%);
+    display: block;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#correct {
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: green;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#wrong {
+    display: none;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: red;
+    text-align: center;
+    padding: 70px 0;
+}
+
+#centerThis {
+    text-align: center;
+}
+
+#iconTroph {
+    text-align: center;
+    position: absolute;
+    left: 180px;
+    top: 52%;
+    color: yellow;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#numberTroph {
+    text-align: center;
+    position: absolute;
+    left: 215px;
+    top: 51%;
+    color: yellow;
+    transform: translateY(-50%);
+    display: block;
+}
+
+ion-button {
+    width: 190px;
+    height: 140px;
+    white-space: initial;
+}

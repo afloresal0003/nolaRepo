@@ -1,0 +1,36 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title class="center">Immigrants' Rights #02</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div id="correct">
+        <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
+        <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+    </div>
+    <div id="wrong">
+        <h1 style="font-size:100px; ">TRY AGAIN!</h1>
+        <h2>Hint #1 : The government only has to appoint lawyers for citizens and legal permanent residents.</h2>
+        <ion-button (click)="hideColor('Go Back')" routerLink="question3" color="primary" size="large" shape="round">Return To Question</ion-button>
+    </div>
+    <div id="centerThis">
+        <h1>Which of these do you NOT have the right to when detained by ICE?</h1>
+        <img height="265px" src="https://bostonglobe-prod.cdn.arcpublishing.com/resizer/y9tuKtdHCZvDK78QjkpzrdllLVk=/1440x0/arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/TRCGSGHSJII6NABWZ3N4QVAXQA.jpg" alt="Image of Mariposa" class="center">
+    </div>
+    <div id="iconTroph">
+        <ion-icon size="large" name="trophy-sharp"></ion-icon>
+    </div>
+    <div id="numberTroph">
+        <h1>11</h1>
+    </div>
+    <div id="Qcontainer1">
+        <ion-button (click)="showColor('red')" routerLink="question3" color="primary" size="large" shape="round">Right to call a lawyer or your family.</ion-button>
+        <ion-button (click)="showColor('green')" routerLink="question3" color="secondary" size="large" shape="round">Right to a government-appointed lawyer</ion-button>
+
+    </div>
+    <div id="Qcontainer2">
+        <ion-button (click)="showColor('red')" routerLink="question3" color="tertiary" size="large" shape="round">Right to have an attorney with you at any court hearing.</ion-button>
+        <ion-button (click)="showColor('red')" routerLink="question3" color="success" size="large" shape="round">Right to be released on bond or with other reporting conditions.</ion-button>
+    </div>
+</ion-content>

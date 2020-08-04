@@ -3,7 +3,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 20%;
+    top: 15%;
     transform: translateY(-50%);
 }
 
@@ -12,7 +12,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 37%;
     transform: translateY(-50%);
 }
 
@@ -21,7 +21,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 60%;
+    top: 59%;
     transform: translateY(-50%);
 }
 
@@ -30,6 +30,12 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 80%;
+    top: 81%;
     transform: translateY(-50%);
+}
+
+ion-button {
+    width: 340px;
+    height: 140px;
+    white-space: initial;
 }

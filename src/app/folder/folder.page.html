@@ -1,11 +1,12 @@
 <ion-header [translucent]="true">
-    <ion-toolbar>
-        <ion-buttons slot="start">
+    <ion-toolbar color="tertiary">
+        <ion-buttons size="large" slot="start">
             <ion-menu-button>
-                <img id="Logo" height="30" width="30" src="https://i.ibb.co/Fbrd892/logo.png">
+                <img id="Logo" height="80px" width="80px" src="https://i.ibb.co/Fbrd892/logo.png">
             </ion-menu-button>
         </ion-buttons>
-        <h1 id="NOLA_title" size="large">NOLA</h1>
+        <!--<h1 id="NOLA_title" style="font-size:60px; ">NOLA</h1>-->
+        <img src="https://i.ibb.co/DRDFKcf/company.png" alt="company" height="80px">
 
     </ion-toolbar>
 </ion-header>
@@ -14,9 +15,13 @@
 
 
     <div id="container1">
-        <ion-button (click)="navigateCategories()" routerLink="question1" color="danger" size="large" shape="round">PLAY</ion-button>
+        <ion-button (click)="navigateCategories()" routerLink="question1" color="danger" size="large" shape="round">
+            <h1 style="font-size:130px; ">PLAY</h1>
+        </ion-button>
     </div>
     <div id="container2">
-        <ion-button (click)="navigateROTD()" routerLink="right-of-the-day" color="secondary" size="large" shape="round">Right Of The Day</ion-button>
+        <ion-button (click)="navigateROTD()" routerLink="right-of-the-day" color="secondary" size="large" shape="round">
+            <h1 style="font-size:60px; ">Right Of The Day</h1>
+        </ion-button>
     </div>
 </ion-content>

@@ -1,7 +1,13 @@
-ion-menu-button {
-    color: var(--ion-color-primary);
+.sc-ion-buttons-md-h {
+    display: block !important;
 }
 
+ion-menu-button {
+    color: var(--ion-color-primary);
+    height: 100px !important;
+}
+
+$colors: ( tertiary: #233b8f);
 #container1 {
     text-align: center;
     position: absolute;
@@ -12,12 +18,16 @@ ion-menu-button {
     transform: translateY(-50%);
 }
 
+.center {
+    text-align: center;
+}
+
 #container2 {
     text-align: center;
     position: absolute;
     left: 0;
     right: 0;
-    top: 60%;
+    top: 70%;
     transform: translateY(-50%);
 }
 
@@ -35,4 +45,10 @@ ion-menu-button {
 
 #container a {
     text-decoration: none;
+}
+
+ion-button {
+    width: 370px;
+    height: 200px;
+    white-space: initial;
 }
