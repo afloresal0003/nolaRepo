@@ -56,7 +56,7 @@ const routes: Routes = [
     loadChildren: () => import('./wrong-page/wrong-page.module').then( m => m.WrongPagePageModule)
   },
   {
-    path: 'categories-page',
+    path: 'categories',
     loadChildren: () => import('./categories-page/categories-page.module').then( m => m.CategoriesPagePageModule)
   },
   {
@@ -102,6 +102,10 @@ const routes: Routes = [
   {
     path: 'level-threequestion5',
     loadChildren: () => import('./level-threequestion5/level-threequestion5.module').then( m => m.LevelThreequestion5PageModule)
+  },
+  {
+    path: 'levels-page',
+    loadChildren: () => import('./levels-page/levels-page.module').then( m => m.LevelsPagePageModule)
   }
 ];
 
