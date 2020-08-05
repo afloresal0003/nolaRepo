@@ -8,10 +8,6 @@
                     </ion-list-header>
                     <ion-note>Know Your Laws</ion-note>
                     <ion-menu-toggle auto-hide="false">
-                        <!--<ion-item (click)="selectedIndex = i" routerDirection="root" [routerLink]="" lines="none" detail="false" [class.selected]="selectedIndex == i">
-                            <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
-                            <ion-label>{{ p.title }}</ion-label>
-                        </ion-item>-->
                         <ion-item (click)="goToDatabase()">
                             <ion-icon name="library-outline" slot="start"></ion-icon>
                             <ion-label>Student Rights Database</ion-label>
@@ -20,10 +16,10 @@
                             <ion-icon name="construct-outline" slot="start"></ion-icon>
                             <ion-label>Give Us Feedback</ion-label>
                         </ion-item>
-                        <ion-item (click)="goToFAQ()">
+                        <!--<ion-item (click)="goToFAQ()">
                             <ion-icon name="chatbubbles-outline" slot="start"></ion-icon>
                             <ion-label>FAQ</ion-label>
-                        </ion-item>
+                        </ion-item>-->
                         <ion-item (click)="goToContact()">
                             <ion-icon name="call-outline" slot="start"></ion-icon>
                             <ion-label>Contact Us</ion-label>

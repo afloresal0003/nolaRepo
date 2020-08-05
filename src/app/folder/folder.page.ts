@@ -11,9 +11,9 @@ export class FolderPage implements OnInit {
   public folder: string;
 
   constructor(private activatedRoute: ActivatedRoute, private router: Router) { }
-  // navigateCategories(){
-  //   this.router.navigate(['/categories-page']);
-  // }
+  navigateCategories(){
+    this.router.navigate(['/categories-page']);
+  }
   navigateROTD(){
     this.router.navigate(['/right-of-the-day']);
   }

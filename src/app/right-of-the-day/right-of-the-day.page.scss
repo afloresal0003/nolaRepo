@@ -27,6 +27,17 @@
     height: 100% !important;
 }
 
+#home {
+    position: absolute;
+    text-align: center;
+    bottom: 0.1px;
+    left: 37%;
+}
+
 ion-icon {
     z-index: 1;
+}
+
+ion-title {
+    text-align: center;
 }

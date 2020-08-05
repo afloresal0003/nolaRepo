@@ -56,7 +56,7 @@ const routes: Routes = [
     loadChildren: () => import('./wrong-page/wrong-page.module').then( m => m.WrongPagePageModule)
   },
   {
-    path: 'categories',
+    path: 'categories-page',
     loadChildren: () => import('./categories-page/categories-page.module').then( m => m.CategoriesPagePageModule)
   },
   {

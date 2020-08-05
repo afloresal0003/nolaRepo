@@ -7,12 +7,12 @@
 <ion-content>
     <div id="correct">
         <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
-        <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+        <ion-button (click)="hideColor('Continue')" color="primary" size="large" shape="round">Continue</ion-button>
     </div>
     <div id="wrong">
         <h1 style="font-size:100px; ">TRY AGAIN!</h1>
         <h2>Hint #1 : How can you ensure that you keep in contact?</h2>
-        <ion-button (click)="hideColor('Go Back')" routerLink="question3" color="primary" size="large" shape="round">Return To Question</ion-button>
+        <ion-button (click)="hideColor('Go Back')" color="primary" size="large" shape="round">Return To Question</ion-button>
     </div>
     <div id="centerThis">
         <h1>What should you NOT do if your loved one is deported?</h1>
@@ -25,12 +25,12 @@
         <h1>14</h1>
     </div>
     <div id="Qcontainer1">
-        <ion-button (click)="showColor('green')" routerLink="question3" color="primary" size="large" shape="round">Hire any attorney as fast as possible.</ion-button>
-        <ion-button (click)="showColor('red')" routerLink="question3" color="secondary" size="large" shape="round">Keep copies of their Notice to Appear (NTA) and all other immigration paperwork</ion-button>
+        <ion-button (click)="showColor('green')" color="tertiary" size="large" shape="round">Hire any attorney as fast as possible.</ion-button>
+        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Keep Notice to Appear and all paperwork</ion-button>
 
     </div>
     <div id="Qcontainer2">
-        <ion-button (click)="showColor('red')" routerLink="question3" color="tertiary" size="large" shape="round">Record down their Alien Registration Number (ARN)</ion-button>
-        <ion-button (click)="showColor('red')" routerLink="question3" color="success" size="large" shape="round">Contact their Consulate and ask if someone by their name was recently deported.</ion-button>
+        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Note their Alien Registration Number</ion-button>
+        <ion-button (click)="showColor('red')" color="tertiary" size="large" shape="round">Contact Consulate and provide their info</ion-button>
     </div>
 </ion-content>

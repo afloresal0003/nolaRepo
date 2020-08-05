@@ -46,8 +46,14 @@ $colors: ( tertiary: navy);
     text-decoration: none;
 }
 
-ion-button {
-    width: 354px;
-    height: 133px;
+#playB {
+    width: 260px;
+    height: 100px;
+    white-space: initial;
+}
+
+#RODB {
+    width: 230px;
+    height: 120px;
     white-space: initial;
 }

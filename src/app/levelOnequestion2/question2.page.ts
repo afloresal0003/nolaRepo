@@ -72,11 +72,7 @@ export class Question2Page implements OnInit {
     }
   }
   ngOnInit() {
-    // let count;
-    // count += 1;
-    // if (count===1){
-    //   location.reload();
-    // }
+    
   }
 
 }

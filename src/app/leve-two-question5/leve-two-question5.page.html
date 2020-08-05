@@ -7,12 +7,12 @@
 <ion-content>
     <div id="correct">
         <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
-        <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+        <ion-button (click)="hideColor('Continue')" color="primary" size="large" shape="round">Continue</ion-button>
     </div>
     <div id="wrong">
         <h1 style="font-size:100px; ">TRY AGAIN!</h1>
         <h2>Hint #1 : Homelessness still does not give you independent status unless a court of law has declared you an independent minor.</h2>
-        <ion-button (click)="hideColor('Go Back')" routerLink="question3" color="primary" size="large" shape="round">Return To Question</ion-button>
+        <ion-button (click)="hideColor('Go Back')" color="primary" size="large" shape="round">Return To Question</ion-button>
     </div>
     <div id="centerThis">
         <h1>Which educational right do you NOT have if you are experiencing homelessness?</h1>
@@ -25,12 +25,14 @@
         <h1>9</h1>
     </div>
     <div id="Qcontainer1">
-        <ion-button (click)="showColor('green')" routerLink="question3" color="primary" size="large" shape="round">Right to make school-related decisions without your parents.</ion-button>
-        <ion-button (click)="showColor('red')" routerLink="question3" color="secondary" size="large" shape="round">Right to receive free transportation to attend school.</ion-button>
+        <ion-button (click)="showColor('green')" color="tertiary" size="large" shape="round">
+            <p>Right to make decisions without your parents</p>
+        </ion-button>
+        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Right to receive free transportation to attend school.</ion-button>
 
     </div>
     <div id="Qcontainer2">
-        <ion-button (click)="showColor('red')" routerLink="question3" color="tertiary" size="large" shape="round">Right to enroll in school without the documents that are normally required.</ion-button>
-        <ion-button (click)="showColor('red')" routerLink="question3" color="success" size="large" shape="round">Right to receive “comparable services” to those received by other students.</ion-button>
+        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Right to enroll in school regardless of documentation.</ion-button>
+        <ion-button (click)="showColor('red')" color="tertiary" size="large" shape="round">Right to receive equal treatment.</ion-button>
     </div>
 </ion-content>

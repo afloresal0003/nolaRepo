@@ -7,12 +7,12 @@
 <ion-content>
     <div id="correct">
         <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
-        <ion-button (click)="hideColor('Continue')" routerLink="question3" color="primary" size="large" shape="round">Continue</ion-button>
+        <ion-button (click)="hideColor('Continue')" color="primary" size="large" shape="round">Continue</ion-button>
     </div>
     <div id="wrong">
         <h1 style="font-size:100px; ">TRY AGAIN!</h1>
         <h2>Hint #1 : The first 10 amendments apply to all residents in the US.</h2>
-        <ion-button (click)="hideColor('Go Back')" routerLink="question3" color="primary" size="large" shape="round">Return To Question</ion-button>
+        <ion-button (click)="hideColor('Go Back')" color="primary" size="large" shape="round">Return To Question</ion-button>
     </div>
     <div id="centerThis">
         <h1>Which of these do you have the right to as an immigrant?</h1>
@@ -25,12 +25,12 @@
         <h1>10</h1>
     </div>
     <div id="Qcontainer1">
-        <ion-button (click)="showColor('red')" routerLink="question3" color="primary" size="large" shape="round">Right to remain silent, even if officer has a warrant.</ion-button>
-        <ion-button (click)="showColor('red')" routerLink="question3" color="secondary" size="large" shape="round">Right to refuse law enforcement into your home without warrant</ion-button>
+        <ion-button (click)="showColor('red')" color="tertiary" size="large" shape="round">Right to remain silent, even if officer has a warrant.</ion-button>
+        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Right to refuse home entry without warrant</ion-button>
 
     </div>
     <div id="Qcontainer2">
-        <ion-button (click)="showColor('red')" routerLink="question3" color="tertiary" size="large" shape="round">Right to hire a lawyer</ion-button>
-        <ion-button (click)="showColor('green')" routerLink="question3" color="success" size="large" shape="round">All of the above.</ion-button>
+        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Right to hire a lawyer</ion-button>
+        <ion-button (click)="showColor('green')" color="tertiary" size="large" shape="round">All of the above.</ion-button>
     </div>
 </ion-content>

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-right-of-the-day',
   templateUrl: './right-of-the-day.page.html',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RightOfTheDayPage implements OnInit {
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute, private router: Router) { }
+  navigateHome(){
+    this.router.navigate(['folder/:id']);
 
+  }
   ngOnInit() {
   }
 
