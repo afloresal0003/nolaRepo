@@ -1,36 +1,121 @@
+<!--  The header of our question. 
+      Will show the button to return to the categories page.-->
 <ion-header>
-    <ion-toolbar>
-        <ion-title class="center">Immigrants' Rights #04</ion-title>
+    <ion-toolbar color="primary">
+        <ion-icon (click)="goCat();hideColor('continue')" size="large" name="close-sharp">
+        </ion-icon>
     </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <div id="correct">
-        <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
-        <ion-button (click)="hideColor('Continue')" color="primary" size="large" shape="round">Continue</ion-button>
-    </div>
-    <div id="wrong">
-        <h1 style="font-size:100px; ">TRY AGAIN!</h1>
-        <h2>Hint #1 : Do not self-incriminate yourself!</h2>
-        <ion-button (click)="hideColor('Go Back')" color="primary" size="large" shape="round">Return To Question</ion-button>
-    </div>
+<!--  The rest of the page. -->
+<ion-content color="primary">
+
+    <!--  The question and image div -->
     <div id="centerThis">
-        <h1>Which of these should you do when stopped by immigration or the police?</h1>
-        <img height="265px" src="https://d279m997dpfwgl.cloudfront.net/wp/2017/09/NH-Checkpoint.jpg" alt="Image of Mariposa" class="center">
+        <h1>Which of these should you do when stopped by immigration enforcement?</h1>
+        <img height="235px;" src="https://d279m997dpfwgl.cloudfront.net/wp/2017/09/NH-Checkpoint.jpg" alt="Image of Voter Ballot" class="center">
     </div>
+
+    <!--  The trophy, count, and next button divs -->
     <div id="iconTroph">
         <ion-icon size="large" name="trophy-sharp"></ion-icon>
     </div>
     <div id="numberTroph">
         <h1>13</h1>
     </div>
-    <div id="Qcontainer1">
-        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Remain silent and refuse to answer questions.</ion-button>
-        <ion-button (click)="showColor('red')" color="tertiary" size="large" shape="round">Contact an attorney immediately</ion-button>
+    <div id="nextButton">
+        <ion-icon (click)="nextPage(); hideColor('continue')" size="large" name="arrow-forward-circle"></ion-icon>
+    </div>
 
+    <!--  The first answer choice -->
+    <div id="Qcontainer1">
+        <ion-item color="primary" lines="none" (click)="showColor('green', 1)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>All of the above</ion-label>
+        </ion-item>
     </div>
+    <div id="Qresult1">
+        <ion-item color="success" lines="none">
+            <ion-icon color="light" size="large" name="checkmark-circle-sharp">
+            </ion-icon>
+            <ion-label>All of the above</ion-label>
+        </ion-item>
+    </div>
+
+    <!--  The second answer choice -->
     <div id="Qcontainer2">
-        <ion-button (click)="showColor('red')" color="tertiary" size="large" shape="round">Refuse to sign anything without legal advice</ion-button>
-        <ion-button (click)="showColor('green')" color="warning" size="large" shape="round">All of the above.</ion-button>
+        <ion-item color="primary" lines="none" (click)="showColor('red', 2)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>Remain silent</ion-label>
+        </ion-item>
     </div>
+    <div id="Qresult2">
+        <ion-item color="danger" lines="none">
+            <ion-icon color="light" size="large" name="close-circle-sharp">
+            </ion-icon>
+            <ion-label>Remain silent</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qhint2">
+        <ion-item id="hint2" color="danger" lines="none">
+            <ion-icon color="light" size="small" name="key-sharp">
+            </ion-icon>
+            <ion-label>
+                <p>Hint: Do not self-incriminate</p>
+            </ion-label>
+        </ion-item>
+    </div>
+
+    <!--  The third answer choice -->
+    <div id="Qcontainer3">
+        <ion-item color="primary" lines="none" (click)="showColor('red', 3)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>Contact an attorney immediately</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qresult3">
+        <ion-item color="danger" lines="none">
+            <ion-icon color="light" size="large" name="close-circle-sharp">
+            </ion-icon>
+            <ion-label>Contact an attorney immediately</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qhint3">
+        <ion-item id="hint3" color="danger" lines="none">
+            <ion-icon color="light" size="small" name="key-sharp">
+            </ion-icon>
+            <ion-label>
+                <p>Hint: Do not self-incriminate</p>
+            </ion-label>
+        </ion-item>
+    </div>
+
+    <!--  The fourth answer choice -->
+    <div id="Qcontainer4">
+        <ion-item color="primary" lines="none" (click)="showColor('red', 4)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>Refuse to sign anything w/o legal advice</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qresult4">
+        <ion-item color="danger" lines="none">
+            <ion-icon color="light" size="large" name="close-circle-sharp">
+            </ion-icon>
+            <ion-label>Refuse to sign anything w/o legal advice</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qhint4">
+        <ion-item id="hint4" color="danger" lines="none">
+            <ion-icon color="light" size="small" name="key-sharp">
+            </ion-icon>
+            <ion-label>
+                <p>Hint: Do not self-incriminate</p>
+            </ion-label>
+        </ion-item>
+    </div>
+
 </ion-content>

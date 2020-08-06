@@ -1,36 +1,121 @@
+<!--  The header of our question. 
+      Will show the button to return to the categories page.-->
 <ion-header>
-    <ion-toolbar>
-        <ion-title class="center">Immigrants' Rights #01</ion-title>
+    <ion-toolbar color="tertiary">
+        <ion-icon (click)="goCat();hideColor('continue')" size="large" name="close-sharp">
+        </ion-icon>
     </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <div id="correct">
-        <h1 style="text-align:center; font-size:70px;">CORRECT!</h1>
-        <ion-button (click)="hideColor('Continue')" color="primary" size="large" shape="round">Continue</ion-button>
-    </div>
-    <div id="wrong">
-        <h1 style="font-size:100px; ">TRY AGAIN!</h1>
-        <h2>Hint #1 : The first 10 amendments apply to all residents in the US.</h2>
-        <ion-button (click)="hideColor('Go Back')" color="primary" size="large" shape="round">Return To Question</ion-button>
-    </div>
+<!--  The rest of the page. -->
+<ion-content color="tertiary">
+
+    <!--  The question and image div -->
     <div id="centerThis">
-        <h1>Which of these do you have the right to as an immigrant?</h1>
-        <img src="https://d279m997dpfwgl.cloudfront.net/wp/2017/02/AP_17044803991198-1000x665.jpg" alt="Image of Mariposa" class="center">
+        <h1>Which of these rights do undocumented immigrants have?</h1>
+        <img height="250px;" src="https://d279m997dpfwgl.cloudfront.net/wp/2017/02/AP_17044803991198-1000x665.jpg" alt="Image of Voter Ballot" class="center">
     </div>
+
+    <!--  The trophy, count, and next button divs -->
     <div id="iconTroph">
         <ion-icon size="large" name="trophy-sharp"></ion-icon>
     </div>
     <div id="numberTroph">
         <h1>10</h1>
     </div>
-    <div id="Qcontainer1">
-        <ion-button (click)="showColor('red')" color="tertiary" size="large" shape="round">Right to remain silent, even if officer has a warrant.</ion-button>
-        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Right to refuse home entry without warrant</ion-button>
+    <div id="nextButton">
+        <ion-icon (click)="nextPage(); hideColor('continue')" size="large" name="arrow-forward-circle"></ion-icon>
+    </div>
 
+    <!--  The first answer choice -->
+    <div id="Qcontainer1">
+        <ion-item color="tertiary" lines="none" (click)="showColor('green', 1)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>All of the above</ion-label>
+        </ion-item>
     </div>
+    <div id="Qresult1">
+        <ion-item color="success" lines="none">
+            <ion-icon color="light" size="large" name="checkmark-circle-sharp">
+            </ion-icon>
+            <ion-label>All of the above</ion-label>
+        </ion-item>
+    </div>
+
+    <!--  The second answer choice -->
     <div id="Qcontainer2">
-        <ion-button (click)="showColor('red')" color="warning" size="large" shape="round">Right to hire a lawyer</ion-button>
-        <ion-button (click)="showColor('green')" color="tertiary" size="large" shape="round">All of the above.</ion-button>
+        <ion-item color="tertiary" lines="none" (click)="showColor('red', 2)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>Right to remain silent</ion-label>
+        </ion-item>
     </div>
+    <div id="Qresult2">
+        <ion-item color="danger" lines="none">
+            <ion-icon color="light" size="large" name="close-circle-sharp">
+            </ion-icon>
+            <ion-label>Right to remain silent</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qhint2">
+        <ion-item id="hint2" color="danger" lines="none">
+            <ion-icon color="light" size="small" name="key-sharp">
+            </ion-icon>
+            <ion-label>
+                <p>Hint: We all have the same rights!</p>
+            </ion-label>
+        </ion-item>
+    </div>
+
+    <!--  The third answer choice -->
+    <div id="Qcontainer3">
+        <ion-item color="tertiary" lines="none" (click)="showColor('red', 3)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>Right to refuse home entry if w/o warrant</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qresult3">
+        <ion-item color="danger" lines="none">
+            <ion-icon color="light" size="large" name="close-circle-sharp">
+            </ion-icon>
+            <ion-label>Right to refuse home entry if w/o warrant</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qhint3">
+        <ion-item id="hint3" color="danger" lines="none">
+            <ion-icon color="light" size="small" name="key-sharp">
+            </ion-icon>
+            <ion-label>
+                <p>Hint: We all have the same rights!</p>
+            </ion-label>
+        </ion-item>
+    </div>
+
+    <!--  The fourth answer choice -->
+    <div id="Qcontainer4">
+        <ion-item color="tertiary" lines="none" (click)="showColor('red', 4)">
+            <ion-icon size="large" name="ellipse-sharp">
+            </ion-icon>
+            <ion-label>Right to hire a lawyer</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qresult4">
+        <ion-item color="danger" lines="none">
+            <ion-icon color="light" size="large" name="close-circle-sharp">
+            </ion-icon>
+            <ion-label>Right to hire a lawyer</ion-label>
+        </ion-item>
+    </div>
+    <div id="Qhint4">
+        <ion-item id="hint4" color="danger" lines="none">
+            <ion-icon color="light" size="small" name="key-sharp">
+            </ion-icon>
+            <ion-label>
+                <p>Hint: We all have the same rights!</p>
+            </ion-label>
+        </ion-item>
+    </div>
+
 </ion-content>

@@ -2,48 +2,128 @@
     text-align: center;
     position: absolute;
     left: 0;
-    right: 0;
-    top: 67%;
-    color: red;
+    top: 63%;
     transform: translateY(-50%);
     display: block;
+}
+
+#Qresult1 {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 63%;
+    transform: translateY(-50%);
+    z-index: 1;
 }
 
 #Qcontainer2 {
     text-align: center;
     position: absolute;
     left: 0;
-    right: 0;
-    top: 85%;
-    color: red;
+    top: 73%;
     transform: translateY(-50%);
     display: block;
+}
+
+#Qresult2 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 73%;
+    transform: translateY(-50%);
+    display: none;
+    z-index: 1;
+}
+
+#Qhint2 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 78%;
+    transform: translateY(-50%);
+    display: none;
+    z-index: 1;
+}
+
+#hint2 {
+    left: 25px;
+    height: 30px;
+    width: 350px;
+}
+
+#Qcontainer3 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 83%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#Qresult3 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 83%;
+    transform: translateY(-50%);
+    display: none;
+    z-index: 1;
+}
+
+#Qhint3 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 88%;
+    transform: translateY(-50%);
+    display: none;
+    z-index: 1;
+}
+
+#hint3 {
+    left: 25px;
+    height: 30px;
+    width: 290px;
+}
+
+#Qcontainer4 {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 93%;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#Qresult4 {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 93%;
+    transform: translateY(-50%);
+    display: none;
+    z-index: 1;
+}
+
+#Qhint4 {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 98%;
+    transform: translateY(-50%);
+    display: none;
+    z-index: 1;
+}
+
+#hint4 {
+    left: 25px;
+    height: 30px;
+    width: 290px;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-}
-
-#correct {
-    display: none;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    background-color: green;
-    text-align: center;
-    padding: 70px 0;
-}
-
-#wrong {
-    display: none;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    background-color: red;
-    text-align: center;
-    padding: 70px 0;
 }
 
 #centerThis {
@@ -51,27 +131,36 @@
 }
 
 #iconTroph {
-    text-align: center;
     position: absolute;
-    left: 180px;
-    top: 55%;
+    left: 20px;
+    top: 56%;
     color: yellow;
     transform: translateY(-50%);
     display: block;
 }
 
 #numberTroph {
-    text-align: center;
     position: absolute;
-    left: 215px;
-    top: 54%;
+    left: 55px;
+    top: 55%;
     color: yellow;
     transform: translateY(-50%);
     display: block;
 }
 
-ion-button {
-    width: 170px;
-    height: 100px;
-    white-space: initial;
+#nextButton {
+    position: absolute;
+    left: 330px;
+    top: 56%;
+    color: #2dd36f;
+    transform: translateY(-50%);
+    display: none;
+}
+
+ion-icon {
+    z-index: 1;
+}
+
+ion-label {
+    left: 1px;
 }

@@ -36,24 +36,8 @@ const routes: Routes = [
     loadChildren: () => import('./right-of-the-day/right-of-the-day.module').then( m => m.RightOfTheDayPageModule)
   },
   {
-    path: 'perfect-end',
-    loadChildren: () => import('./perfect-end/perfect-end.module').then( m => m.PerfectEndPageModule)
-  },
-  {
     path: 'well-done-end',
     loadChildren: () => import('./well-done-end/well-done-end.module').then( m => m.WellDoneEndPageModule)
-  },
-  {
-    path: 'try-again-end',
-    loadChildren: () => import('./try-again-end/try-again-end.module').then( m => m.TryAgainEndPageModule)
-  },
-  {
-    path: 'correct-page',
-    loadChildren: () => import('./correct-page/correct-page.module').then( m => m.CorrectPagePageModule)
-  },
-  {
-    path: 'wrong-page',
-    loadChildren: () => import('./wrong-page/wrong-page.module').then( m => m.WrongPagePageModule)
   },
   {
     path: 'categories-page',
@@ -103,10 +87,6 @@ const routes: Routes = [
     path: 'level-threequestion5',
     loadChildren: () => import('./level-threequestion5/level-threequestion5.module').then( m => m.LevelThreequestion5PageModule)
   },
-  {
-    path: 'levels-page',
-    loadChildren: () => import('./levels-page/levels-page.module').then( m => m.LevelsPagePageModule)
-  }
 ];
 
 @NgModule({

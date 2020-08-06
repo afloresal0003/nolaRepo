@@ -60,7 +60,7 @@ export class AppComponent implements OnInit {
     window.open('https://www.myschoolmyrights.com/#knowrights');
     // this.document.location.href = 'https://stackoverflow.com';
   }
-  goToFAQ(){
+  goToShop(){
     this.router.navigate(['faq']);
   }
   goToSurvey(){
