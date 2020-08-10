@@ -1,4 +1,65 @@
-#Qcontainer1 {
+#question2Header {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#iconTroph2 {
+    position: absolute;
+    left: 20px;
+    top: 56%;
+    color: yellow;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#numberTroph2 {
+    position: absolute;
+    left: 55px;
+    top: 55%;
+    color: yellow;
+    transform: translateY(-50%);
+    display: block;
+}
+
+#trophUpdate2 {
+    position: absolute;
+    left: 55px;
+    top: 55%;
+    color: yellow;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#nextButton2 {
+    position: absolute;
+    left: 330px;
+    top: 56%;
+    color: #2dd36f;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#emoji2 {
+    position: absolute;
+    left: 290px;
+    top: 55%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#message2 {
+    position: absolute;
+    left: 180px;
+    top: 55%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#Q2answer1 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -7,7 +68,7 @@
     display: block;
 }
 
-#Qresult1 {
+#Q2result1 {
     display: none;
     position: absolute;
     left: 0;
@@ -16,7 +77,7 @@
     z-index: 1;
 }
 
-#Qcontainer2 {
+#Q2answer2 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -25,7 +86,7 @@
     display: block;
 }
 
-#Qresult2 {
+#Q2result2 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -35,7 +96,7 @@
     z-index: 1;
 }
 
-#Qhint2 {
+#Q2hint2 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -45,13 +106,13 @@
     z-index: 1;
 }
 
-#hint2 {
+#Q2subhint2 {
     left: 25px;
     height: 30px;
     width: 290px;
 }
 
-#Qcontainer3 {
+#Q2answer3 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -60,7 +121,7 @@
     display: block;
 }
 
-#Qresult3 {
+#Q2result3 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -70,7 +131,7 @@
     z-index: 1;
 }
 
-#Qhint3 {
+#Q2hint3 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -80,13 +141,13 @@
     z-index: 1;
 }
 
-#hint3 {
+#Q2subhint3 {
     left: 25px;
     height: 30px;
     width: 290px;
 }
 
-#Qcontainer4 {
+#Q2answer4 {
     position: absolute;
     text-align: center;
     left: 0;
@@ -95,7 +156,7 @@
     display: block;
 }
 
-#Qresult4 {
+#Q2result4 {
     position: absolute;
     text-align: center;
     left: 0;
@@ -105,7 +166,7 @@
     z-index: 1;
 }
 
-#Qhint4 {
+#Q2hint4 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -115,46 +176,10 @@
     z-index: 1;
 }
 
-#hint4 {
+#Q2subhint4 {
     left: 25px;
     height: 30px;
     width: 290px;
-}
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#centerThis {
-    text-align: center;
-}
-
-#iconTroph {
-    position: absolute;
-    left: 20px;
-    top: 56%;
-    color: yellow;
-    transform: translateY(-50%);
-    display: block;
-}
-
-#numberTroph {
-    position: absolute;
-    left: 55px;
-    top: 55%;
-    color: yellow;
-    transform: translateY(-50%);
-    display: block;
-}
-
-#nextButton {
-    position: absolute;
-    left: 330px;
-    top: 56%;
-    color: #2dd36f;
-    transform: translateY(-50%);
-    display: none;
 }
 
 ion-icon {
