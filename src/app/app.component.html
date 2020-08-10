@@ -8,6 +8,14 @@
                     </ion-list-header>
                     <ion-note>Know Your Laws</ion-note>
                     <ion-menu-toggle auto-hide="false">
+                        <ion-item (click)="goToProfile()">
+                            <ion-icon name="person-circle" slot="start"></ion-icon>
+                            <ion-label>Profile</ion-label>
+                        </ion-item>
+                        <ion-item (click)="changeLanguage()">
+                            <ion-icon name="language-outline" slot="start"></ion-icon>
+                            <ion-label>Language</ion-label>
+                        </ion-item>
                         <ion-item (click)="goToDatabase()">
                             <ion-icon name="library-outline" slot="start"></ion-icon>
                             <ion-label>Student Rights Database</ion-label>
