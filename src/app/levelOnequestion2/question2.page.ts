@@ -93,6 +93,8 @@ export class Question2Page implements OnInit {
     const nextB = document.getElementById('nextButton2');
     const emoji = document.getElementById('emoji2');
     const message = document.getElementById('message2');
+    const preUpdate = document.getElementById('numberTroph2');
+    const postUpdate = document.getElementById('trophUpdate2');
 
     if (option === 'continue'){
       qContainer1.style.display = 'block';
@@ -109,6 +111,8 @@ export class Question2Page implements OnInit {
       nextB.style.display = 'none';
       emoji.style.display = 'none';
       message.style.display = 'none';
+      preUpdate.style.display = 'block';
+      postUpdate.style.display = 'none';
     }
     else{
       qContainer1.style.display = 'block';

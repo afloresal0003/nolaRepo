@@ -1,4 +1,4 @@
-#Qcontainer1 {
+#l2q1answer1 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -7,7 +7,7 @@
     display: block;
 }
 
-#Qresult1 {
+#l2q1result1 {
     display: none;
     position: absolute;
     left: 0;
@@ -16,7 +16,7 @@
     z-index: 1;
 }
 
-#Qcontainer2 {
+#l2q1answer2 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -25,7 +25,7 @@
     display: block;
 }
 
-#Qresult2 {
+#l2q1result2 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -35,7 +35,7 @@
     z-index: 1;
 }
 
-#Qhint2 {
+#l2q1hint2 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -45,13 +45,13 @@
     z-index: 1;
 }
 
-#hint2 {
+#l2q1subhint2 {
     left: 25px;
     height: 30px;
     width: 380px;
 }
 
-#Qcontainer3 {
+#l2q1answer3 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -60,7 +60,7 @@
     display: block;
 }
 
-#Qresult3 {
+#l2q1result3 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -70,7 +70,7 @@
     z-index: 1;
 }
 
-#Qhint3 {
+#l2q1hint3 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -80,13 +80,13 @@
     z-index: 1;
 }
 
-#hint3 {
+#l2q1subhint3 {
     left: 25px;
     height: 30px;
     width: 380px;
 }
 
-#Qcontainer4 {
+#l2q1answer4 {
     position: absolute;
     text-align: center;
     left: 0;
@@ -95,7 +95,7 @@
     display: block;
 }
 
-#Qresult4 {
+#l2q1result4 {
     position: absolute;
     text-align: center;
     left: 0;
@@ -105,7 +105,7 @@
     z-index: 1;
 }
 
-#Qhint4 {
+#l2q1hint4 {
     text-align: center;
     position: absolute;
     left: 0;
@@ -115,7 +115,7 @@
     z-index: 1;
 }
 
-#hint4 {
+#l2q1subhint4 {
     left: 25px;
     height: 30px;
     width: 380px;
@@ -126,11 +126,11 @@
     margin-right: auto;
 }
 
-#centerThis {
+#l2q1header {
     text-align: center;
 }
 
-#iconTroph {
+#l2q1iconTroph {
     position: absolute;
     left: 20px;
     top: 56%;
@@ -139,7 +139,7 @@
     display: block;
 }
 
-#numberTroph {
+#l2q1numberTroph {
     position: absolute;
     left: 55px;
     top: 55%;
@@ -148,11 +148,36 @@
     display: block;
 }
 
-#nextButton {
+#l2q1trophUpdate {
+    position: absolute;
+    left: 55px;
+    top: 55%;
+    color: yellow;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#l2q1nextButton {
     position: absolute;
     left: 330px;
     top: 56%;
     color: #2dd36f;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#l2q1emoji {
+    position: absolute;
+    left: 290px;
+    top: 55%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#l2q1message {
+    position: absolute;
+    left: 200px;
+    top: 55%;
     transform: translateY(-50%);
     display: none;
 }

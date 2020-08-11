@@ -83,7 +83,7 @@ export class Question1Page implements OnInit {
     const qResult1 = document.getElementById('Q1result1');
     const qContainer2 = document.getElementById('Q1answer2');
     const qResult2 = document.getElementById('Q1result2');
-    const qHint2 = document.getElementById('Qhint2');
+    const qHint2 = document.getElementById('Q1hint2');
     const qContainer3 = document.getElementById('Q1answer3');
     const qResult3 = document.getElementById('Q1result3');
     const qHint3 = document.getElementById('Q1hint3');
@@ -93,6 +93,8 @@ export class Question1Page implements OnInit {
     const nextB = document.getElementById('nextButton1');
     const emoji = document.getElementById('emoji1');
     const message = document.getElementById('message1');
+    const preUpdate = document.getElementById('numberTroph1');
+    const postUpdate = document.getElementById('trophUpdate1');
 
     if (option === 'continue'){
       qContainer1.style.display = 'block';
@@ -109,6 +111,8 @@ export class Question1Page implements OnInit {
       nextB.style.display = 'none';
       emoji.style.display = 'none';
       message.style.display = 'none';
+      preUpdate.style.display = 'block';
+      postUpdate.style.display = 'none';
     }
     else{
       qContainer1.style.display = 'block';
@@ -125,6 +129,8 @@ export class Question1Page implements OnInit {
       nextB.style.display = 'none';
       emoji.style.display = 'none';
       message.style.display = 'none';
+      preUpdate.style.display = 'block';
+      postUpdate.style.display = 'none';
     }
   }
   // Goes to the categories page

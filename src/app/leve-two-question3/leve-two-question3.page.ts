@@ -12,14 +12,18 @@ export class LeveTwoQuestion3Page implements OnInit {
 
   // Displays whether or not an answer is right or wrong
   showColor(color, num){
-    const qResult1 = document.getElementById('Qresult1');
-    const qResult2 = document.getElementById('Qresult2');
-    const qHint2 = document.getElementById('Qhint2');
-    const qResult3 = document.getElementById('Qresult3');
-    const qHint3 = document.getElementById('Qhint3');
-    const qResult4 = document.getElementById('Qresult4');
-    const qHint4 = document.getElementById('Qhint4');
-    const nextB = document.getElementById('nextButton');
+    const qResult1 = document.getElementById('l2q3result1');
+    const qResult2 = document.getElementById('l2q3result2');
+    const qHint2 = document.getElementById('l2q3hint2');
+    const qResult3 = document.getElementById('l2q3result3');
+    const qHint3 = document.getElementById('l2q3hint3');
+    const qResult4 = document.getElementById('l2q3result4');
+    const qHint4 = document.getElementById('l2q3hint4');
+    const nextB = document.getElementById('l2q3nextButton');
+    const emoji = document.getElementById('l2q3emoji');
+    const message = document.getElementById('l2q3message');
+    const preUpdate = document.getElementById('l2q3numberTroph');
+    const postUpdate = document.getElementById('l2q3trophUpdate');
 
     if (color === 'green'){
       qResult1.style.display = 'block';
@@ -30,6 +34,10 @@ export class LeveTwoQuestion3Page implements OnInit {
       qResult4.style.display = 'block';
       qHint4.style.display = 'none';
       nextB.style.display = 'block';
+      emoji.style.display = 'block';
+      message.style.display = 'block';
+      preUpdate.style.display = 'none';
+      postUpdate.style.display = 'block';
     }
     if (color === 'red' && num === 2){
       qResult1.style.display = 'none';
@@ -64,18 +72,22 @@ export class LeveTwoQuestion3Page implements OnInit {
   }
   // Sets everything back to its default CSS style
   hideColor(option){
-    const qContainer1 = document.getElementById('Qcontainer1');
-    const qResult1 = document.getElementById('Qresult1');
-    const qContainer2 = document.getElementById('Qcontainer2');
-    const qResult2 = document.getElementById('Qresult2');
-    const qHint2 = document.getElementById('Qhint2');
-    const qContainer3 = document.getElementById('Qcontainer3');
-    const qResult3 = document.getElementById('Qresult3');
-    const qHint3 = document.getElementById('Qhint3');
-    const qContainer4 = document.getElementById('Qcontainer4');
-    const qResult4 = document.getElementById('Qresult4');
-    const qHint4 = document.getElementById('Qhint4');
-    const nextB = document.getElementById('nextButton');
+    const qContainer1 = document.getElementById('l2q3answer1');
+    const qResult1 = document.getElementById('l2q3result1');
+    const qContainer2 = document.getElementById('l2q3answer2');
+    const qResult2 = document.getElementById('l2q3result2');
+    const qHint2 = document.getElementById('l2q3hint2');
+    const qContainer3 = document.getElementById('l2q3answer3');
+    const qResult3 = document.getElementById('l2q3result3');
+    const qHint3 = document.getElementById('l2q3hint3');
+    const qContainer4 = document.getElementById('l2q3answer4');
+    const qResult4 = document.getElementById('l2q3result4');
+    const qHint4 = document.getElementById('l2q3hint4');
+    const nextB = document.getElementById('l2q3nextButton');
+    const emoji = document.getElementById('l2q3emoji');
+    const message = document.getElementById('l2q3message');
+    const preUpdate = document.getElementById('l2q3numberTroph');
+    const postUpdate = document.getElementById('l2q3trophUpdate');
 
     if (option === 'continue'){
       qContainer1.style.display = 'block';
@@ -90,6 +102,10 @@ export class LeveTwoQuestion3Page implements OnInit {
       qResult4.style.display = 'none';
       qHint4.style.display = 'none';
       nextB.style.display = 'none';
+      emoji.style.display = 'none';
+      message.style.display = 'none';
+      preUpdate.style.display = 'block';
+      postUpdate.style.display = 'none';
     }else{
       qContainer1.style.display = 'block';
       qResult1.style.display = 'none';
@@ -103,6 +119,10 @@ export class LeveTwoQuestion3Page implements OnInit {
       qResult4.style.display = 'none';
       qHint4.style.display = 'none';
       nextB.style.display = 'none';
+      emoji.style.display = 'none';
+      message.style.display = 'none';
+      preUpdate.style.display = 'block';
+      postUpdate.style.display = 'none';
     }
   }
   // Goes to the categories page

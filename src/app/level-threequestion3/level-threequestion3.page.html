@@ -11,31 +11,40 @@
 <ion-content color="tertiary">
 
     <!--  The question and image div -->
-    <div id="centerThis">
-        <h1>What could you encounter upon entering the United States?</h1>
+    <div id="l3q3header">
+        <h1>What could you encounter upon entering the United States?🤔</h1>
         <img height="250px;" src="https://ucommblog.com/sites/default/files/photos/tsa-screeners.jpg" alt="Image of Voter Ballot" class="center">
     </div>
 
     <!--  The trophy, count, and next button divs -->
-    <div id="iconTroph">
+    <div id="l3q3iconTroph">
         <ion-icon size="large" name="trophy-sharp"></ion-icon>
     </div>
-    <div id="numberTroph">
+    <div id="l3q3numberTroph">
         <h1>12</h1>
     </div>
-    <div id="nextButton">
+    <div id="l3q3trophUpdate">
+        <h1>13</h1>
+    </div>
+    <div id="l3q3nextButton">
         <ion-icon (click)="nextPage(); hideColor('continue')" size="large" name="arrow-forward-circle"></ion-icon>
+    </div>
+    <div id="l3q3emoji">
+        <h1>🤯</h1>
+    </div>
+    <div id="l3q3message">
+        <h3>Wow!</h3>
     </div>
 
     <!--  The first answer choice -->
-    <div id="Qcontainer1">
+    <div id="l3q3answer1">
         <ion-item color="tertiary" lines="none" (click)="showColor('green', 1)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>All of the above</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult1">
+    <div id="l3q3result1">
         <ion-item color="success" lines="none">
             <ion-icon color="light" size="large" name="checkmark-circle-sharp">
             </ion-icon>
@@ -44,76 +53,76 @@
     </div>
 
     <!--  The second answer choice -->
-    <div id="Qcontainer2">
+    <div id="l3q3answer2">
         <ion-item color="tertiary" lines="none" (click)="showColor('red', 2)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>Provide fingerprints</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult2">
+    <div id="l3q3result2">
         <ion-item color="danger" lines="none">
             <ion-icon color="light" size="large" name="close-circle-sharp">
             </ion-icon>
             <ion-label>Provide fingerprints</ion-label>
         </ion-item>
     </div>
-    <div id="Qhint2">
-        <ion-item id="hint2" color="danger" lines="none">
+    <div id="l3q3hint2">
+        <ion-item id="l3q3subhint2" color="danger" lines="none">
             <ion-icon color="light" size="small" name="key-sharp">
             </ion-icon>
             <ion-label>
-                <p>Hint: CBP/HSI agents have liberty to question</p>
+                <p>Hint: CBP/HSI agents have liberty to question👮</p>
             </ion-label>
         </ion-item>
     </div>
 
     <!--  The third answer choice -->
-    <div id="Qcontainer3">
+    <div id="l3q3answer3">
         <ion-item color="tertiary" lines="none" (click)="showColor('red', 3)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>Questions about religious/political beliefs</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult3">
+    <div id="l3q3result3">
         <ion-item color="danger" lines="none">
             <ion-icon color="light" size="large" name="close-circle-sharp">
             </ion-icon>
             <ion-label>Questions about religious/political beliefs</ion-label>
         </ion-item>
     </div>
-    <div id="Qhint3">
-        <ion-item id="hint3" color="danger" lines="none">
+    <div id="l3q3hint3">
+        <ion-item id="l3q3subhint3" color="danger" lines="none">
             <ion-icon color="light" size="small" name="key-sharp">
             </ion-icon>
             <ion-label>
-                <p>Hint: CBP/HSI agents have liberty to question</p>
+                <p>Hint: CBP/HSI agents have liberty to question👮</p>
             </ion-label>
         </ion-item>
     </div>
 
     <!--  The fourth answer choice -->
-    <div id="Qcontainer4">
+    <div id="l3q3answer4">
         <ion-item color="tertiary" lines="none" (click)="showColor('red', 4)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>CBP officers or HSI agents</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult4">
+    <div id="l3q3result4">
         <ion-item color="danger" lines="none">
             <ion-icon color="light" size="large" name="close-circle-sharp">
             </ion-icon>
             <ion-label>CBP officers or HSI agents</ion-label>
         </ion-item>
     </div>
-    <div id="Qhint4">
-        <ion-item id="hint4" color="danger" lines="none">
+    <div id="l3q3hint4">
+        <ion-item id="l3q3subhint4" color="danger" lines="none">
             <ion-icon color="light" size="small" name="key-sharp">
             </ion-icon>
             <ion-label>
-                <p>Hint: CBP/HSI agents have liberty to question</p>
+                <p>Hint: CBP/HSI agents have liberty to question👮</p>
             </ion-label>
         </ion-item>
     </div>

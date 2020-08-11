@@ -64,7 +64,7 @@ export class AppComponent implements OnInit {
     this.router.navigate(['faq']);
   }
   goToSurvey(){
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLScd3kajMTRuAIPh7CNYmbb1IXJM7izwKP2dh96Mckm4xNpKag/viewform');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdWJ_ZBV-vL6Rdb-p9YapvyM-wFPhk_HdNVJhUaXyPjv6krdw/viewform');
 
   }
   goToContact(){

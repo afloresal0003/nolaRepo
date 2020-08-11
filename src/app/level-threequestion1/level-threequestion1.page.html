@@ -11,31 +11,40 @@
 <ion-content color="tertiary">
 
     <!--  The question and image div -->
-    <div id="centerThis">
-        <h1>Which of these rights do undocumented immigrants have?</h1>
+    <div id="l3q1header">
+        <h1>What rights do undocumented immigrants have?🤔</h1>
         <img height="250px;" src="https://d279m997dpfwgl.cloudfront.net/wp/2017/02/AP_17044803991198-1000x665.jpg" alt="Image of Voter Ballot" class="center">
     </div>
 
     <!--  The trophy, count, and next button divs -->
-    <div id="iconTroph">
+    <div id="l3q1iconTroph">
         <ion-icon size="large" name="trophy-sharp"></ion-icon>
     </div>
-    <div id="numberTroph">
-        <h1>5</h1>
+    <div id="l3q1numberTroph">
+        <h1>10</h1>
     </div>
-    <div id="nextButton">
+    <div id="l3q1trophUpdate">
+        <h1>11</h1>
+    </div>
+    <div id="l3q1nextButton">
         <ion-icon (click)="nextPage(); hideColor('continue')" size="large" name="arrow-forward-circle"></ion-icon>
+    </div>
+    <div id="l3q1emoji">
+        <h1>🥳</h1>
+    </div>
+    <div id="l3q1message">
+        <h3>Woohoo!</h3>
     </div>
 
     <!--  The first answer choice -->
-    <div id="Qcontainer1">
+    <div id="l3q1answer1">
         <ion-item color="tertiary" lines="none" (click)="showColor('green', 1)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>All of the above</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult1">
+    <div id="l3q1result1">
         <ion-item color="success" lines="none">
             <ion-icon color="light" size="large" name="checkmark-circle-sharp">
             </ion-icon>
@@ -44,76 +53,76 @@
     </div>
 
     <!--  The second answer choice -->
-    <div id="Qcontainer2">
+    <div id="l3q1answer2">
         <ion-item color="tertiary" lines="none" (click)="showColor('red', 2)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>Right to remain silent</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult2">
+    <div id="l3q1result2">
         <ion-item color="danger" lines="none">
             <ion-icon color="light" size="large" name="close-circle-sharp">
             </ion-icon>
             <ion-label>Right to remain silent</ion-label>
         </ion-item>
     </div>
-    <div id="Qhint2">
-        <ion-item id="hint2" color="danger" lines="none">
+    <div id="l3q1hint2">
+        <ion-item id="l3q1subhint2" color="danger" lines="none">
             <ion-icon color="light" size="small" name="key-sharp">
             </ion-icon>
             <ion-label>
-                <p>Hint: We all have the same rights!</p>
+                <p>Hint: We all have the same rights!🤝</p>
             </ion-label>
         </ion-item>
     </div>
 
     <!--  The third answer choice -->
-    <div id="Qcontainer3">
+    <div id="l3q1answer3">
         <ion-item color="tertiary" lines="none" (click)="showColor('red', 3)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>Right to refuse home entry if w/o warrant</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult3">
+    <div id="l3q1result3">
         <ion-item color="danger" lines="none">
             <ion-icon color="light" size="large" name="close-circle-sharp">
             </ion-icon>
             <ion-label>Right to refuse home entry if w/o warrant</ion-label>
         </ion-item>
     </div>
-    <div id="Qhint3">
-        <ion-item id="hint3" color="danger" lines="none">
+    <div id="l3q1hint3">
+        <ion-item id="l3q1subhint3" color="danger" lines="none">
             <ion-icon color="light" size="small" name="key-sharp">
             </ion-icon>
             <ion-label>
-                <p>Hint: We all have the same rights!</p>
+                <p>Hint: We all have the same rights!🤝</p>
             </ion-label>
         </ion-item>
     </div>
 
     <!--  The fourth answer choice -->
-    <div id="Qcontainer4">
+    <div id="l3q1answer4">
         <ion-item color="tertiary" lines="none" (click)="showColor('red', 4)">
             <ion-icon size="large" name="ellipse-sharp">
             </ion-icon>
             <ion-label>Right to hire a lawyer</ion-label>
         </ion-item>
     </div>
-    <div id="Qresult4">
+    <div id="l3q1result4">
         <ion-item color="danger" lines="none">
             <ion-icon color="light" size="large" name="close-circle-sharp">
             </ion-icon>
             <ion-label>Right to hire a lawyer</ion-label>
         </ion-item>
     </div>
-    <div id="Qhint4">
-        <ion-item id="hint4" color="danger" lines="none">
+    <div id="l3q1hint4">
+        <ion-item id="l3q1subhint4" color="danger" lines="none">
             <ion-icon color="light" size="small" name="key-sharp">
             </ion-icon>
             <ion-label>
-                <p>Hint: We all have the same rights!</p>
+                <p>Hint: We all have the same rights!🤝</p>
             </ion-label>
         </ion-item>
     </div>
