@@ -1,18 +1,21 @@
 <ion-header [translucent]="true">
     <ion-toolbar color="tertiary">
         <ion-buttons size="large" slot="start">
-            <ion-menu-button>
+            <ion-menu-button color="medium">
             </ion-menu-button>
         </ion-buttons>
         <!--<h1 id="NOLA_title" style="font-size:60px; ">NOLA</h1>-->
-        <img class="center" height="80px" src="https://i.ibb.co/rxkphBK/Last-official-logo-removebg-preview.png" alt="company-removebg-preview">
+        <img id="LogoHeader" src="https://i.ibb.co/CvtXqLw/Orange-removebg-preview.png" alt="company-removebg-preview">
     </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-    <h1 style="font-size:60px; text-align:center;">
-        California
-    </h1>
+
+    <div id="title">
+        <h1 style="font-size:60px; text-align:center;">
+            California
+        </h1>
+    </div>
     <div id="container1">
         <ion-button id="playB" (click)="navigateCategories()" color="primary" size="large">
             <h1 style="font-size:50px; ">Play!</h1>

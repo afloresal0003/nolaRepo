@@ -17,6 +17,23 @@ $colors: ( tertiary: navy);
     transform: translateY(-50%);
 }
 
+#LogoHeader {
+    position: absolute;
+    top: -9px;
+    right: 25%;
+    height: 120px;
+}
+
+#title {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    transform: translateY(-50%);
+    font-weight: 900;
+}
+
 #center {
     right: 30px;
 }

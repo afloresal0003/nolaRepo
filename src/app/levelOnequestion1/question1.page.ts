@@ -135,7 +135,7 @@ export class Question1Page implements OnInit {
   }
   // Goes to the categories page
   goCat(){
-    this.router.navigate(['categories-page']);
+    this.router.navigate(['folder/:id']);
   }
   // Goes to the next question
   nextPage(){
