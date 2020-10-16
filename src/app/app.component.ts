@@ -57,8 +57,8 @@ export class AppComponent implements OnInit {
     });
   }
   goToDatabase(){
-    window.open('https://www.myschoolmyrights.com/#knowrights');
-    // this.document.location.href = 'https://stackoverflow.com';
+    //window.open('https://www.myschoolmyrights.com/#knowrights');
+   this.document.location.href = 'https://www.myschoolmyrights.com/#knowrights';
   }
   goToShop(){
     this.router.navigate(['faq']);

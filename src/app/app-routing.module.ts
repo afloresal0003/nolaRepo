@@ -87,6 +87,10 @@ const routes: Routes = [
     path: 'level-threequestion5',
     loadChildren: () => import('./level-threequestion5/level-threequestion5.module').then( m => m.LevelThreequestion5PageModule)
   },
+  {
+    path: 'apcsppage',
+    loadChildren: () => import('./apcsppage/apcsppage.module').then( m => m.APCSPPagePageModule)
+  },
 ];
 
 @NgModule({
