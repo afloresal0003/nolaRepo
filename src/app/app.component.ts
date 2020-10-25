@@ -64,11 +64,17 @@ export class AppComponent implements OnInit {
     this.router.navigate(['faq']);
   }
   goToSurvey(){
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdWJ_ZBV-vL6Rdb-p9YapvyM-wFPhk_HdNVJhUaXyPjv6krdw/viewform');
+    this.document.location.href ='https://docs.google.com/forms/d/e/1FAIpQLSdWJ_ZBV-vL6Rdb-p9YapvyM-wFPhk_HdNVJhUaXyPjv6krdw/viewform';
 
   }
   goToContact(){
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLScaesjVim_CHBsa0qVgPT7PsUQnEIiUssdGIb5-m8LvbB9PAQ/viewform');
+    this.document.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScaesjVim_CHBsa0qVgPT7PsUQnEIiUssdGIb5-m8LvbB9PAQ/viewform';
+  }
+  changeLanguage(){
+    this.router.navigate(['faq']);
+  }
+  goToProfile(){
+    this.router.navigate(['faq']);
   }
 
   ngOnInit() {
