@@ -13,5 +13,6 @@
  <p> - Cesar Melendez (UI/UX Designer): In charge of user interface designs. </p>
  <p> - Sharief Morrow (Scrum Leader): In charge of managing product progress and development.</p>
  <p> - Brandon Godinez (Product Manager): In charge of marketing and business.</p>
+ <p> - Anthony Flores-Alvarez (Developer): In charge of all the programming and app development. </p>
 </h3>
 
