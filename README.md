@@ -9,7 +9,6 @@
  <p> - Anthony Flores-Alvarez (Developer). </p>
 </h3>
 <h3> The TXT SCLA NOLA team (June 29 - August 1):
- <p> - Anthony Flores-Alvarez (Developer): In charge of all the programming and app development. </p>
  <p> - Cesar Melendez (UI/UX Designer): In charge of user interface designs. </p>
  <p> - Sharief Morrow (Scrum Leader): In charge of managing product progress and development.</p>
  <p> - Brandon Godinez (Product Manager): In charge of marketing and business.</p>
