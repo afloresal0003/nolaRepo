@@ -6,7 +6,7 @@
  the Day feature, as well as the game feature. Updates are coming!
 </h3>
 <h3> Current NOLA team (August 1 - Present):
- <p> - Anthony Flores-Alvarez (Developer). </p>
+ <p> - Anthony Flores-Alvarez (Developer & UI/UX Designer). </p>
 </h3>
 <h3> The TXT SCLA NOLA team (June 29 - August 1):
  <p> - Cesar Melendez (UI/UX Designer): In charge of user interface designs. </p>
