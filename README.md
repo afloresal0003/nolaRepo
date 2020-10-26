@@ -13,5 +13,6 @@
  <p> - Sharief Morrow (Scrum Leader): In charge of managing product progress and development.</p>
  <p> - Brandon Godinez (Product Manager): In charge of marketing and business.</p>
  <p> - Anthony Flores-Alvarez (Developer): In charge of all the programming and app development. </p>
+ <p> - Irene Rivera (ACLU of SoCal): Helped ensure that rights information was correct, valid, and up-to-date. </p>
 </h3>
 
