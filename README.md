@@ -5,6 +5,9 @@
  the dense rights information into bite-size summaries through the Right of
  the Day feature, as well as the game feature. Updates are coming!
 </h3>
+<h3> NOLA Mobile App Test Runs: </h3>
+<p>Link to 1st ever test run: <a href="https://vimeo.com/473708429">https://vimeo.com/473708429</a></p>
+<p>Link to current state of the app: <a href="https://vimeo.com/473706929">https://vimeo.com/473706929</a></p>
 <h3> Current NOLA team (August 1 - Present):
  <p> - Irene Rivera (ACLU of SoCal): Helped ensure that rights information was correct, valid, and up-to-date. </p>
  <p> - Anthony Flores-Alvarez (Developer & UI/UX Designer). </p>
