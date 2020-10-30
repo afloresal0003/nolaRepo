@@ -1,10 +1,8 @@
 # Repository for NOLA App
-<h3> This app is called NOLA for Know Your Laws! </h3>
- <p>The purpose of the app is to help teenagers learn their US laws and rights
- to ensure that they become more educated citizens. It does this by presenting
- the dense rights information into bite-size summaries through the Right of
- the Day feature, as well as the game feature. Updates are coming!
+<h3> Backstory/Purpose </h3>
+ <p>While in my dad’s apartment one night, the police showed up at our door. After opening it, officers pointed guns to our faces, while another slammed my father to the ground. My sister and I were handcuffed and pinned against the hallway walls. It turned out that they saw me at the store earlier, thought I looked “suspicious,” and followed me to my dad’s apartment. But I realized that I had the right not to open the door and prevent the traumatic experience from occurring because they did not have a warrant. Recognizing similar police encounters in South LA, I developed NOLA.
 </p>
+<p>NOLA’s purpose is to prevent teenagers from having their rights abused, preventing unlawful arrests, and de-escalating interactions with law enforcement by providing a simple, centralized, and fun platform for California teenagers to learn their rights and learn about interactions with law enforcement.</p>
 <h3> NOLA Mobile App Video Demos: </h3>
 <p>Link to 1st ever test run: <a href="https://vimeo.com/473708429">https://vimeo.com/473708429</a></p>
 <p>Link to current state of the app: <a href="https://vimeo.com/473706929">https://vimeo.com/473706929</a></p>
