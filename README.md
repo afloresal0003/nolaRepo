@@ -6,6 +6,7 @@
  the Day feature, as well as the game feature. Updates are coming!
 </h3>
 <h3> Current NOLA team (August 1 - Present):
+ <p> - Irene Rivera (ACLU of SoCal): Helped ensure that rights information was correct, valid, and up-to-date. </p>
  <p> - Anthony Flores-Alvarez (Developer & UI/UX Designer). </p>
 </h3>
 <h3> The TXT SCLA NOLA team (June 29 - August 1):
