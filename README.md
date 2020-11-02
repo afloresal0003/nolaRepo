@@ -1,6 +1,5 @@
 # Repository for NOLA App
-<div class = "Div1">
- <style>
+<style>
   .Div1{
    border-style: double;
    width: 100%;
@@ -9,6 +8,7 @@
    display:table;
   }
  </style>
+<div class = "Div1">
  <h3> Backstory/Purpose </h3>
   <p>While in my dad’s apartment one night, the police showed up at our door. After opening it, officers pointed guns to our faces, while another slammed my father to the ground. My sister and I were handcuffed and pinned against the hallway walls. It turned out that they saw me at the store earlier, thought I looked “suspicious,” and followed me to my dad’s apartment. But I realized that I had the right not to open the door and prevent the traumatic experience from occurring because they did not have a warrant. Recognizing similar police encounters in South LA, I developed NOLA.
   </p>
