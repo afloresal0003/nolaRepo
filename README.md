@@ -1,15 +1,6 @@
 # Repository for NOLA App
 <html>
 <head>
-<style>
-  .Div1{
-   border-style: double;
-   width: 100%;
-   height: 100px;
-   background-color:coral;
-   display:table;
-  }
-</style>
 </head>
 <body>
   <div class = "Div1">
